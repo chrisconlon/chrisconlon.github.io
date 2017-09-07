@@ -1,0 +1,5 @@
+The Empirical Likelihood (EL) estimator, and the family of related Generalized Empirical Likelihood (GEL) estimators provide a number of potential advantages when compared to Generalized Method of 
+Moments (GMM) estimators. While it is well known these estimators share an asymptotic distribution, the EL estimator is higher order efficient and may perform better in finite sample. A relatively 
+new literature has documented that finite-sample bias in the demand estimation problem of Berry, Levinsohn, and Pakes (1995) may in cases be quite large, especially as the number of products 
+increases, or the instrumental variables become correlated. This paper provides a formulation for a computationally tractable EL estimator based on the MPEC method of Su and Judd (2012) and adapts 
+it to the BLP problem. When compared to GMM approaches, the EL estimator performs substantially better in finite-sample, reducing the bias by as much as 30%.

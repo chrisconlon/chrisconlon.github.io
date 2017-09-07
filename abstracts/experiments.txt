@@ -1,0 +1,5 @@
+Product availability impacts many industries such as transportation, events, and retail, yet little empirical evidence documents the importance of stocking decisions 
+for firm profits, vertical relationships, or consumers. We conduct several experiments, ex- ogenously removing top-selling products from a set of vending machines and 
+analyzing substitution patterns and profit impacts of the changed product availability using non- parametric analyses and structural demand estimation. We find 
+substantial switching to alternate products, and evidence of misaligned incentives between upstream and downstream firms in the choice of which products to carry. We 
+discuss the trade-offs of both empirical approaches for analyzing product availability effects generally.

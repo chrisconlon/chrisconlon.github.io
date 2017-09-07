@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="description" content="Your description goes here" />
+	<meta name="keywords" content="your,keywords,goes,here" />
+	<meta name="author" content="Your Name" />
+	<link rel="stylesheet" type="text/css" href="daleri-single.css" title="Daleri Single" media="screen,projection" />
+	<title>Chris Conlon's Homepage</title>
+
+
+<script type="text/javascript" src="switchcontent.js" ></script>
+</head>
+
+<body>
+<div id="wrap">
+	<h1>Chris Conlon</h1>
+    <p class="slogan"> My Research </p>
+	<p class="toptabs">
+	<strong class="hide">Main menu:</strong>
+	<a class="toptab" href="index.html">Home</a><span class="hide"> | </span>
+	<a class="toptab" href="./site/cv.pdf">CV (.pdf)</a><span class="hide"> | </span>
+	<a class="toptab active" href="research.html">Research</a><span class="hide"> | </span>
+	<a class="toptab" href="http://www.github.com/chrisconlon">Github</a><span class="hide"> | </span>
+	<a class="toptab" href="links.html">Links</a><span class="hide"> | </span>
+	<a class="toptab" href="gradio.html">Grad IO</a><span class="hide"> | </span>
+
+	</p>
+
+	<div id="maincontent">
+	<a href="./papers/researchstatement.pdf"> Research Statement </a><BR><BR>
+	<a href="https://scholar.google.com/citations?user=chkdHcgAAAAJ&hl=en"> Google Scholar </a><BR><BR>
+
+
+		<h3>Publications/Forthcoming</h3>
+		<ul>
+		<li><span id="paper0-title" class="handcursor"> </span> <a href="https://www.aeaweb.org/articles?id=10.1257/mic.5.4.1"> 
+		Demand Estimation Under Incomplete Product Availability </a> (w/ Julie Mortimer) <em>AEJ: Micro (2013)</em> </li> 
+		<p id="paper0" class="switchgroup2"></p>
+		</ul>
+		
+		<h3>Working Papers</h3>
+		<ul>
+		<li><span id="paper1-title" class="handcursor"> </span> <a href="./site/passthrough.pdf">Discrete Prices and the Incidence and Efficiency of Excise Taxes </a> (w/ Nirupama Rao) </li>
+ 		<p id="paper1" class="switchgroup2"></p>
+
+ 		<li><span id="paper2-title" class="handcursor"> </span> <a href="./site/liquor.pdf"> The Price of Liquor is Too Damn High: The Effects of Post and Hold Pricing </a> (with Nirupama Rao) </li>
+ 		<p id="paper2" class="switchgroup2"></p>
+
+		<li><span id="paper3-title" class="handcursor"> </span> <a href="./site/aud.pdf"> All Units Discount: Experimental Evidence from the Vending Industry </a> (with Julie Mortimer) <em> Resubmitted at Journal of Political Economy</em> </li> 
+ 		<p id="paper3" class="switchgroup2"></p>
+
+		<li><span id="paper4-title" class="handcursor"> </span> <a href="./site/diversion.pdf"> An Experimental Approach to Merger Evaluation </a>  <a href="http://www.nber.org/papers/w19703">[NBER ver.] </a> (with Julie Mortimer) </li>
+ 		<p id="paper4" class="switchgroup2"></p>
+
+		<li><span id="paper5-title" class="handcursor"> </span> <a href="./site/elmpecblp.pdf"> The Empirical Likelihood MPEC Approach to Demand Estimation </a> </li>
+ 		<p id="paper5" class="switchgroup2"></p>
+
+		<li><span id="paper6-title" class="handcursor"> </span> <a href="./site/conlonjmp.pdf"> A Dynamic Model of Prices and Margins in the LCD TV Industry </a> </li>
+ 		<p id="paper6" class="switchgroup2"></p>
+
+
+		</ul>
+		<h3>Works In Progress</h3>
+		<ul>
+		<li><span id="paper7-title" class="handcursor"> </span> Market Power, Countercyclical Quality, and Sticky Prices (with David Berger) </li>
+ 		<p id="paper7 class="switchgroup2"></p>
+
+		<li><span id="paper8-title" class="handcursor"> </span> Short term and Long Term Contracting in the Market for Shipping (with Myrto Kalouptsidi) </li>
+ 		<p id="paper8" class="switchgroup2"></p>
+
+		<li><span id="paper9-title" class="handcursor"> </span> Network Effects and the Adoption of Healthcare IT: A Partial Identification Appraoch (with Frank Limbrock and Gustavo Soares) </li>
+ 		<p id="paper9" class="switchgroup2"></p>
+                    
+		</ul>
+
+        <!--#include virtual="bottomfile.shtml" -->
+
+    </div>
+        <!--#include virtual="footer.shtml" -->
+</div>
+<script type="text/javascript">
+var joeexample=new switchcontent("switchgroup2", "p") //Limit scanning of switch contents to just "p" elements
+joeexample.setStatus('[close] ', '[abstract] ')
+joeexample.setColor('gray', 'gray')
+joeexample.collapsePrevious(true) //Allow more than 1 content to be open simultanously
+joeexample.setPersist(false)
+//joeexample.defaultExpanded(1,0)
+joeexample.setContent(0, './abstracts/demand.txt') //specify remote content for 1st header's content
+joeexample.setContent(1, './abstracts/pass-through.txt')  //specify remote content for 2nd header's content
+joeexample.setContent(2, './abstracts/liquor.txt')  //specify remote content for 2nd header's content
+joeexample.setContent(3, './abstracts/aud.txt')  //specify remote content for 2nd header's content
+joeexample.setContent(4, './abstracts/diversion.txt')  //specify remote content for 2nd header's content
+joeexample.setContent(5, './abstracts/elmpec.txt')  //specify remote content for 2nd header's content
+joeexample.setContent(6, './abstracts/jmp.txt')  //specify remote content for 2nd header's content
+
+joeexample.setContent(7, './abstracts/housing.txt')  //specify remote content for 2nd header's content
+joeexample.setContent(8, './abstracts/shipping.txt')  //specify remote content for 2nd header's content
+joeexample.setContent(9, './abstracts/ehr.txt')  //specify remote content for 2nd header's content
+joeexample.setContent(10, './abstracts/rto.txt')  //specify remote content for 2nd header's content
+joeexample.init()
+</script>
+</body>
+</html>

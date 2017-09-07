@@ -1,0 +1,15 @@
+    We study the selection of firms into short and long term contracts in the freight shipping market. We exploit a rich dataset of freight contracts, where shipowners face the choice of either 
+contracting voyage by voyage in a spot market or signing a long-term contract with shipping customers (e.g. a plant importing iron ore). The maritime economics literature has documented and studied 
+a premium for operating in the spot market. In fact, the premium is so large, that it would be difficult to justify with conventional risk aversion arguments alone. Our project, joint work with, illuminates some of the mechanisms that govern contractual choice in this market. We consider a two-sided equilibrium model where both shipowners and shippers 
+match in both short and long-term contracts. An important feature of this market is that firms which elect to participate in the long-term market reduce the residual size of the spot market, and 
+hence amplify the effect of demand shocks and price volatility.
+    Our model will incorporate two important forms of heterogeneity. The first form of heterogeneity is that despite selling relatively homogenous services to shippers, shipowners themselves may 
+have very different operational costs. We consider "modernized" or "efficient" firms, which operate larger fleets, have integrated chartering offices, and modern sailing systems which allow ships to 
+precisely time their travel. The ability to differentially employ various information technologies related to fleet management can have a dramatic impact on the number of days a ship spends at sea, 
+which impacts its utilization and its profitability similar to the work of Hubbard (2001) in trucking. The second important form of heterogeneity is the financial structure of shipowner. Many new 
+ships are financed with borrowing, and we allow this borrowing (and credit constraints) to affect the choice of contractual form. Young ships will generally have lower operating costs and higher 
+fixed costs of debt financing, while older ships have higher operating costs and lower financing costs. We explore efficiency and the allocation of ships to the two different contractual forms. One 
+important aspect is whether or not financial frictions and long-term contracting allow inefficient firms to persist and crowd out entry by more efficient firms (Aghion and Bolton (1987)). Our 
+empirical example makes use of an extensive dataset on contracts in the dry bulk and tanker segments from 2001 to to 2012. The dataset contains information on transaction dates, size, name, the 
+price and age of the ship; as well as the shipowner and the shipper, the contractual length and daily price; and characteristics of the shipowners.
+

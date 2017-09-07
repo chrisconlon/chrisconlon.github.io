@@ -1,0 +1,9 @@
+Most theories of consumption predict that consumers respond to recessions by "downshifting" their consumption from high quality to lower 
+quality goods. Much of the evidence comes from the behavior of individual consumers using supermarket scanner data. We show that firms 
+may want to increase product quality during a recession if consumers observe historical prices and form expectations about future 
+prices, but cannot perfectly observe historical quality. This effect should be largest for firms with a large number of units to sell in 
+future periods. We apply our model to data from the real estate market. We show that during the Great Recession this strategy was 
+employed by real-estate development firms. Rather than cutting prices, firms invested in the quality of housing units in order to 
+provide more value to consumers, and simultaneously limit price declines. We also show that firms with a larger stock of units to sell 
+in the future were more likely to improve quality in response to negative demand shocks. For durable goods, this provides an alternate 
+to menu costs as a micro-founded mechanism for generating sticky prices.
