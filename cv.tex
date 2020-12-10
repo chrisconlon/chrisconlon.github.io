@@ -1,0 +1,188 @@
+% LaTeX Curriculum Vitae Template
+%
+% Copyright (C) 2004-2009 Jason Blevins <jrblevin@sdf.lonestar.org>
+% http://jblevins.org/projects/cv-template/
+%
+% You may use use this document as a template to create your own CV
+% and you may redistribute the source code freely. No attribution is
+% required in any resulting documents. I do ask that you please leave
+% this notice and the above URL in the source code if you choose to
+% redistribute this file.
+
+\documentclass[letterpaper]{article}
+
+\usepackage{hyperref}
+\usepackage{geometry}
+
+% Comment the following lines to use the default Computer Modern font
+% instead of the Palatino font provided by the mathpazo package.
+% Remove the 'osf' bit if you don't like the old style figures.
+\usepackage[T1]{fontenc}
+\usepackage[sc,osf]{mathpazo}
+
+% Set your name here
+\def\name{Christopher T. Conlon}
+
+% Replace this with a link to your CV if you like, or set it empty
+% (as in \def\footerlink{}) to remove the link in the footer:
+\def\footerlink{http://chrisconlon.org/cv.pdf}
+
+% The following metadata will show up in the PDF properties
+\hypersetup{
+  colorlinks = true,
+  urlcolor = black,
+  pdfauthor = {\name},
+  pdfkeywords = {economics, statistics, mathematics},
+  pdftitle = {\name: Curriculum Vitae},
+  pdfsubject = {Curriculum Vitae},
+  pdfpagemode = UseNone
+}
+
+\geometry{
+  body={6.5in, 8.5in},
+  left=1.0in,
+  top=1.25in
+}
+
+% Customize page headers
+\pagestyle{myheadings}
+\markright{\name}
+\thispagestyle{empty}
+
+% Custom section fonts
+\usepackage{sectsty}
+\sectionfont{\rmfamily\mdseries\Large}
+\subsectionfont{\rmfamily\mdseries\itshape\large}
+
+% Other possible font commands include:
+% \ttfamily for teletype,
+% \sffamily for sans serif,
+% \bfseries for bold,
+% \scshape for small caps,
+% \normalsize, \large, \Large, \LARGE sizes.
+
+% Don't indent paragraphs.
+\setlength\parindent{0em}
+
+% Make lists without bullets
+\renewenvironment{itemize}{
+  \begin{list}{}{
+    \setlength{\leftmargin}{1.5em}
+  }
+}{
+  \end{list}
+}
+
+\begin{document}
+
+% Place name at left
+{\huge \name}
+
+% Alternatively, print name centered and bold:
+%\centerline{\huge \bf \name}
+
+\vspace{0.25in}
+
+\begin{minipage}{0.45\linewidth}
+  \href{http://www.chrisconlon.org/}{NYU Stern} \\
+  44 West 4th St \\
+  Kaufman Mangement Center 7-76 \\
+  New York,NY 10012
+\end{minipage}
+\begin{minipage}{0.45\linewidth}
+  \begin{tabular}{ll}
+    Phone: & (646) 389-3895 \\
+     Email: & \href{mailto:cconlon@stern.nyu.edu}{\tt cconlon@stern.nyu.edu} \\
+    Homepage: & \url{http://www.chrisconlon.org/} \\
+  \end{tabular}
+\end{minipage}
+
+\section*{Employment}
+
+\begin{itemize}
+\item Assistant Professor, NYU Stern, Department of Economics 2016-
+\item Assistant Professor, Columbia University, Department of Economics, 2011-2016
+\item Instructor, Columbia University 2010-2011
+\item Visitor at Cowles Foundation, Yale University (April 2019)
+\item Visitor at INSEAD (June 2015, 2017, 2019)
+\item Visitor at Stanford Institute for Economic Policy Research (AY 2013-2014)
+%\item Taught Ph.D. Microeconometrics, INSEAD, May-June 2015.
+\end{itemize}
+
+
+
+\section*{Education}
+
+\begin{itemize}
+\item Ph.D. Economics, Yale University (December 2010)
+\item M.Phil Economics, Yale University (May 2008)
+\item M.A. Economics, Yale University (Dec 2005)
+\item A.M., Statistics, Harvard University (May 2004)
+\item A.B. Applied Mathematics \textit{magna cum laude}, Harvard College (May 2004)
+
+\end{itemize}
+
+
+
+\section*{Research}
+\subsection*{Publications}
+\begin{itemize}
+\item Demand Estimation under Incomplete Product Availability. (2013)\\
+ \textit{American Economic Journal: Microeconomics}. (w/ J. Mortimer)
+\item Wholesale Prices, Retail Prices and the Lumpy PassThrough of Alcohol Taxes   \\\textit{American Economic Journal: Economic Policy} (November 2020). (with Nirupama Rao) 
+\item Common Ownership in America 1980-2017 (w/ Matt Backus and Michael Sinkinson) \\\textit{American Economic Journal: Microeconomics} (Forthcoming).
+\item Best Practices for Differentiated Products Demand Estimation with pyBLP (with Jeff Gortmaker) \\\textit{RAND Journal of Economics} (Forthcoming).
+\end{itemize}
+
+
+\subsection*{Working Papers}
+\begin{itemize}
+\item 
+\item All Units Discount: Experimental Evidence from the Vending Industry (w/ J. Mortimer). \\\textit{Revise and Resubmit: Journal of Political Economy}
+\item Empirical Properties of Diversion Ratios (w/ J. Mortimer)\\\textit{Revise and Resubmit: RAND Journal of Economics}
+\item Common Ownership and Competition in the Ready-To-Eat Cereal Industry (with Matt Backus and Mike Sinkinson)  
+\item The Price of Liquor is Too Damn High: Alcohol Taxation and Market Structure (with Nirupama Rao)  \\\textit{Under Review}
+\item The Common Ownership Hypothesis: Theory and Evidence (Brookings WP) (w/ Matt Backus and Michael Sinkinson) 
+\item The Empirical Likelihood MPEC Approach to Demand Estimation\\ %\textit{Resubmitted (as short paper): Econometrica}  \\\textit{Under Review}
+\item A Dynamic Model of Prices and Margins in the LCD TV Industry. 
+\item Effects of Product Availability: Experimental Evidence (w/ J.Mortimer) 
+\item Choice Modeling in the Marketing-Operations Management Interface with (Shard Borle, 
+Hai Che,
+Vivek Farias,
+Karan Girotra,
+Sachin Gupta,
+Kanishka Misra,
+Julie H. Mortimer,
+Andres Musalem,
+Marcelo Olivares,
+Gustavo Vulcano,
+Fanyin Zheng). \textit{Under Review}.
+\end{itemize}
+
+\subsection*{Work In Progress}
+\begin{itemize}
+\item Diversification Costs of Limiting Common Ownership (w/ Daniel Stackman)
+\item Neural Networks and Consideration Sets
+%\item Machine Learning about Physician Learning (w/ Frank Limbrock) (available soon)
+%\item Short Term and Long Term Contracting in Shipping (w/ M. Kalouptsidi and Kei Kawai) (available soon)
+%\item Market Power, Countercyclical Quality, and Sticky Prices (with David Berger)
+%\item Network Effects and the Adoption of Healthcare IT: A Partial Identification Approach (with Frank Limbrock and Gustavo Soares)
+\end{itemize}
+
+\section*{Service}
+\begin{itemize}
+\item \textbf{Referee Service:} Econometrica, American Economic Review, Journal of Political Economy, American Economic Review, Review of Economic Studies, Quarterly Journal of Economics, RAND Journal of Economics, Journal of Econometrics, AEJ: Microeconomics, AEJ: Policy, European Economic Review, International Economic Review, Review of Economics and Statistics, Journal of Public Economics, International Journal of Industrial Organization, Journal of Industrial Economics, Journal of Development Economics, Marketing Science, Management Science.
+\item \textbf{Advising/Committee Member:}  Alejo Czerwonko (UBS), Jessie Handbury (Wharton), Jisun Baek (KDI School of Public Policy and Management), Yun Kim, Donald Ngwe (HBS Marketing), Joseph Hogan (Ellington Capital), Ilton Soares (NERA), Zach Brown (Michigan Economics). Seher Gupta (Bates White). Ryan Stevens (Facebook/Instagram).
+\end{itemize}
+
+\bigskip
+
+% Footer
+\begin{center}
+  \begin{footnotesize}
+    Last updated: \today \\
+    \href{\footerlink}{\texttt{\footerlink}}
+  \end{footnotesize}
+\end{center}
+
+\end{document}
