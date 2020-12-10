@@ -1,7 +1,0 @@
-Many vertically-separated markets are characterized by common agency, in which competing upstream firms sell products through a common downstream agent. The downstream agent may provide ancillary 
-services or exert effort in order to sell products, and non-exclusive agency may result in an under-provision of these services from the point of view of an upstream firm. If so, an upstream firm 
-may try to align the down- stream firms incentives to provide increased effort through contractual arrangements such as quantity discounts, rebate contracts, or exclusive dealing. These arrangements 
-may also have anti-competitive effects by crowding out the products of competing man- ufacturers. We examine a particular vertical rebate, an all-units-discount. Under this contract, the downstream 
-firm pays a linear wholesale price until a target quantity is met. Once that target quantity is met, a discount applies not only to all future units purchased, but also to all previous units. This 
-has the effect that the marginal cost to the agent is effectively negative over parts of the curve, which might appear hard to justify in the absence of anti-competitive reasons. The tension between 
-the efficiency-enhancing and anti-competitive effects provides the motivation for empirical work.
