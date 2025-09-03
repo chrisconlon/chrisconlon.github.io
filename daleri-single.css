@@ -27,9 +27,6 @@ li {margin:0; padding:0 0 0 5px;}
 
 /* Various classes */
 .slogan {color:#ccc; font-size:1.4em; margin:0 0 10px 0; padding:0;}
-.toptabs {clear:both; font-size:1.4em; line-height:1.5em; color:#aaa; margin:0 0 15px 0;}
-.toptab {padding:3px 10px 5px 10px; font-weight:400; margin:0 2px; color:#ccc;}
-.toptab:hover {background-color:#444; color:#fff; text-decoration:none;}
 .active {background-color:#444; color:#fff;}
 .active:hover {background-color:#444; color:#fff;}
 .bottomlinks, .bottomlinks a {float: bottom; bottom: 10px; text-align:center; color:#888; font-size:0.9em; font-weight:400; margin:5px auto;}
@@ -39,5 +36,43 @@ li {margin:0; padding:0 0 0 5px;}
 .imgleft {float: right;  padding-left: 50px; margin:0px; 0px; 0px; 0px;}
 
 
+/* Top navigation menu */
+.toptabs {
+  display: flex;
+  justify-content: space-around;  /* Spread items evenly */
+  margin: 20px auto;              /* Center it with auto margins */
+  padding: 0;
+  list-style: none;
+  background: #3c0462;            /* Match site header */
+  border-bottom: 4px solid #444;
+  width: 760px;                   /* Match #wrap width */
+  font-size: 1.2em;               /* Slightly larger text */
+  border-radius: 6px 6px 0 0;     /* Rounded top corners to match box */
+}
 
-/* images */
+/* Reset list items */
+.toptabs li {
+  flex: 1;                        /* Equal width for each item */
+  text-align: center;             /* Center text inside */
+}
+
+/* Links inside menu */
+.toptabs a {
+  display: block;
+  padding: 12px 0;                /* Taller clickable area */
+  color: #ccc;
+  text-decoration: none;
+  transition: background 0.3s, color 0.3s;
+  font-weight: 500;
+}
+
+/* Hover and active styles */
+.toptabs a:hover {
+  background: #444;
+  color: #fff;
+}
+
+.toptabs a.active {
+  background: #444;
+  color: #fff;
+}
