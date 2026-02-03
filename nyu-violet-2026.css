@@ -1,0 +1,369 @@
+/*
+Updated Design (2026) - Modernized with NYU Violet color scheme
+Based on original Daleri Single template by Andreas Viklund
+*/
+
+:root {
+  /* NYU Violet color palette */
+  --nyu-violet: #57068c;
+  --nyu-violet-dark: #330662;
+  --nyu-violet-light: #8900e1;
+  --nyu-violet-ultra-light: #f3e5ff;
+  
+  /* Neutral colors */
+  --text-primary: #2c2c2c;
+  --text-secondary: #666;
+  --text-light: #888;
+  --border-color: #d0d0d0;
+  --background-light: #fafafa;
+  --white: #ffffff;
+  
+  /* Spacing and sizing */
+  --content-width: 960px;
+  --border-radius: 8px;
+  --shadow-sm: 0 2px 8px rgba(87, 6, 140, 0.08);
+  --shadow-md: 0 4px 16px rgba(87, 6, 140, 0.12);
+}
+
+/* Main containers */
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  background: linear-gradient(135deg, var(--nyu-violet-ultra-light) 0%, #ffffff 100%);
+  background-attachment: fixed;
+  color: var(--text-primary);
+  text-align: center;
+}
+
+#wrap {
+  width: 90%;
+  max-width: var(--content-width);
+  text-align: center;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+#maincontent {
+  position: relative;
+  background: var(--white);
+  text-align: left;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-md);
+  padding: 2.5rem;
+  margin: 0 0 2rem 0;
+  border: 1px solid var(--border-color);
+}
+
+/* Typography */
+h1 {
+  margin: 1.5rem auto 0.5rem auto;
+  padding: 0;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--nyu-violet);
+  letter-spacing: -0.5px;
+  line-height: 1.2;
+}
+
+h1 a {
+  color: var(--nyu-violet);
+  font-weight: 700;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+h1 a:hover {
+  color: var(--nyu-violet-light);
+  text-decoration: none;
+}
+
+h2 {
+  margin: 0 0 1.5rem 0;
+  padding: 1rem 1.5rem;
+  background: linear-gradient(135deg, var(--nyu-violet) 0%, var(--nyu-violet-dark) 100%);
+  border-radius: var(--border-radius);
+  color: var(--white);
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+  box-shadow: var(--shadow-sm);
+}
+
+h2 a {
+  color: var(--white);
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin: 2rem 0 1rem 0;
+  color: var(--nyu-violet-dark);
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--nyu-violet-ultra-light);
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  font-weight: 500;
+  color: var(--nyu-violet);
+  transition: all 0.2s ease;
+}
+
+a:hover {
+  color: var(--nyu-violet-light);
+  text-decoration: underline;
+}
+
+a img {
+  border: 0;
+}
+
+/* Text elements */
+p {
+  margin: 0 0 1.2rem 0;
+  color: var(--text-primary);
+}
+
+ul {
+  margin: 0 0 1.5rem 1.5rem;
+  padding: 0;
+}
+
+li {
+  margin: 0 0 0.5rem 0;
+  padding: 0 0 0 0.5rem;
+}
+
+/* Slogan */
+.slogan {
+  color: var(--text-secondary);
+  font-size: 1.1rem;
+  margin: 0.5rem 0 2rem 0;
+  padding: 0;
+  font-weight: 400;
+}
+
+/* Navigation Menu */
+.toptabs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 2rem auto 2rem auto;
+  padding: 0;
+  list-style: none;
+  width: 100%;
+}
+
+.toptabs li {
+  flex: 0 1 auto;
+}
+
+.toptabs a {
+  display: block;
+  padding: 0.75rem 1.5rem;
+  color: var(--nyu-violet);
+  background: var(--white);
+  text-decoration: none;
+  border-radius: calc(var(--border-radius) / 2);
+  transition: all 0.3s ease;
+  font-weight: 500;
+  font-size: 0.95rem;
+  border: 2px solid var(--nyu-violet);
+  white-space: nowrap;
+}
+
+.toptabs a:hover {
+  background: var(--nyu-violet);
+  color: var(--white);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-sm);
+}
+
+.toptabs a.active {
+  background: var(--nyu-violet);
+  color: var(--white);
+  box-shadow: var(--shadow-sm);
+}
+
+/* Image styling */
+.imgleft {
+  float: right;
+  padding-left: 2rem;
+  padding-bottom: 1rem;
+  margin: 0;
+  max-width: 280px;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-md);
+}
+
+.withpicture {
+  min-height: 400px;
+}
+
+/* Table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  box-shadow: var(--shadow-sm);
+  border-radius: var(--border-radius);
+  overflow: hidden;
+}
+
+table th {
+  background: var(--nyu-violet);
+  color: var(--white);
+  padding: 1rem;
+  text-align: left;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+table td {
+  padding: 0.875rem 1rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+table tr:last-child td {
+  border-bottom: none;
+}
+
+table tr:hover {
+  background: var(--background-light);
+}
+
+/* Utility classes */
+.hide {
+  display: none;
+}
+
+.active {
+  background-color: var(--nyu-violet);
+  color: var(--white);
+}
+
+.active:hover {
+  background-color: var(--nyu-violet-dark);
+  color: var(--white);
+}
+
+.bottomlinks,
+.bottomlinks a {
+  text-align: center;
+  color: var(--text-light);
+  font-size: 0.9rem;
+  font-weight: 400;
+  margin: 1rem auto;
+}
+
+.footer,
+.footer a {
+  color: var(--text-light);
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 15px;
+  }
+  
+  #wrap {
+    width: 95%;
+    padding: 1rem 0;
+  }
+  
+  #maincontent {
+    padding: 1.5rem;
+  }
+  
+  h1 {
+    font-size: 2rem;
+  }
+  
+  h2 {
+    font-size: 1.3rem;
+    padding: 0.875rem 1rem;
+  }
+  
+  h3 {
+    font-size: 1.2rem;
+  }
+  
+  .slogan {
+    font-size: 1rem;
+  }
+  
+  .toptabs {
+    gap: 0.5rem;
+  }
+  
+  .toptabs a {
+    padding: 0.625rem 1rem;
+    font-size: 0.875rem;
+  }
+  
+  .imgleft {
+    float: none;
+    display: block;
+    margin: 0 auto 1.5rem auto;
+    padding: 0;
+    max-width: 200px;
+  }
+  
+  .withpicture {
+    min-height: auto;
+  }
+  
+  table {
+    font-size: 0.875rem;
+  }
+  
+  table th,
+  table td {
+    padding: 0.625rem 0.75rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 1.75rem;
+  }
+  
+  .toptabs {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  .toptabs li {
+    width: 100%;
+  }
+  
+  .toptabs a {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+/* Print styles */
+@media print {
+  body {
+    background: white;
+  }
+  
+  #maincontent {
+    box-shadow: none;
+    border: 1px solid #ccc;
+  }
+  
+  .toptabs {
+    display: none;
+  }
+}
